@@ -1,4 +1,4 @@
-**Cyber Encryptor - Flask Encryption & Decryption**
+**Cyber Encryptor - Flask Encryption & Decryption**:
 A futuristic encryption-decryption tool with a cyberpunk hacking aesthetic. This Flask-based app encrypts and decrypts messages using a key-based substitution cipher.
 
 Features
