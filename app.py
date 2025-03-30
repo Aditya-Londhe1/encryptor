@@ -5,8 +5,6 @@ import hashlib
 import os
 
 app = Flask(__name__)
-port = int(os.environ.get("PORT", 10000))  # Default to 10000 if PORT is not set
-app.run(host="0.0.0.0", port=port, debug=True)
 
 
 def generate_mapping(key: str):
@@ -65,4 +63,5 @@ def home():
     return render_template("index.html", result=result, error=error)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+   port = int(os.environ.get("PORT", 10000))  
+   app.run(host="0.0.0.0", port=port, debug=True)
